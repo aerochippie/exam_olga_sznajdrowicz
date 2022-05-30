@@ -1,0 +1,40 @@
+
+h1{
+    margin: 1em;
+    font-style: normal;
+    font-family: 'Thasadith', sans-serif;
+    text-transform: uppercase;
+}
+.container-blogs{
+    
+display: flex;
+flex-direction: column;
+
+
+
+}
+
+.all-posts{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 80%;
+    margin: 0 auto;
+background-color: whitesmoke;
+
+}
+
+.all-posts-generated-post{
+    background-color: whitesmoke;
+    align-self: center;
+    margin-right: 3em;
+    padding: 1em;
+}
+.all-posts-generated-image 
+{
+    padding: 1em;
+    justify-self: center;
+}
+.all-posts-generated-image img{
+max-width: 250px;
+
+}

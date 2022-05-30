@@ -1,0 +1,35 @@
+.container{
+width: 100%;
+margin: 30px;
+text-align: center;
+font-family: 'Thasadith', sans-serif;
+}
+.container h1{
+    font-family: 'Thasadith';
+    font-style: normal;
+    font-size: 3em;
+    padding: 1em;
+
+}
+.about-me-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    text-align: justify;
+    width: 900px;
+    margin: 0 auto 150px auto;
+}
+.about-me-container p{
+    width: 100%;
+}
+.about-me-container img{
+    max-width: 300px;
+    justify-self: center;
+    padding: 1em;
+}
+
+@media screen and (max-width:800px) {
+    .about-me-container{
+        display: grid;
+        grid-template-columns: 1fr;
+}}
