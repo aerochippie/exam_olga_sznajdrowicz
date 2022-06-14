@@ -16,11 +16,11 @@ font-family: 'Thasadith', sans-serif;
     grid-template-columns: 1fr 2fr;
     align-items: center;
     text-align: justify;
-    width: 900px;
     margin: 0 auto 150px auto;
 }
 .about-me-container p{
-    width: 100%;
+    max-width: 70%;
+    margin: auto;
 }
 .about-me-container img{
     max-width: 300px;
@@ -28,8 +28,18 @@ font-family: 'Thasadith', sans-serif;
     padding: 1em;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1030px) {
     .about-me-container{
         display: grid;
         grid-template-columns: 1fr;
-}}
+
+  
+}
+body{
+max-width: 100vw;
+}
+.container{
+    margin: 0;
+    padding:1em
+}
+}
